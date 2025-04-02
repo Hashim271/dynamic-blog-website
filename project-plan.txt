@@ -1,0 +1,25 @@
+PART1: Completed
+
+
+PART2: Build the Homepage and Post Listing
+1. Develop the Homepage. (index.html)
+2. Add Basic CSS Styling
+3. Push/Pull and merge Homepage
+
+PART3: Implement Create Post Functionality
+1. Develop the New Post Page. (new-post.html)
+2. Form Validation to make sure the contents are not empty.
+3. Push/Pull and merge New Post Page
+
+PART4: Implement View and Edit Post Functionality
+1. Develop the Post Page. (post.html)
+2. Implement Edit Functionality
+3. Push/Pull and merge Post Page
+
+PART5: Implement Delete Functionality and Final Touches
+1. Ensure that the homepage correctly lists posts, the new post page can add posts, and posts can be viewed, edited, and deleted.
+2. Push/Pull and merge the changes.
+
+**Bonus Part: Add Responsive Styling
+1.Enhance CSS
+2.Push/Pull and merge the changes.
