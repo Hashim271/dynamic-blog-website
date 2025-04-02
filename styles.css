@@ -1,54 +1,32 @@
 body {
-    background-color: rgb(188, 188, 188);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-body > table{
-    width: 80%;
-}
-
-table{
-    border-collapse: collapse;
-    table-layout: fixed;
-    width: 100%;
-}
-table.list{
-    width:100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 10px;
-}
-tr:nth-child(even),table.list thead>tr {
-    background-color: #dddddd;
-}
-
-th {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-h2{
-    text-align: center;
-    font-size: 35px;
-    text-decoration: underline;
-}
-
-th.an {
-    width: 25%;
-}
-
-th.bt {
-    width: 30%;
-}
-
-th.bl {
-    width: 50%;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 header {
     text-align: center;
     font-size: 2em;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#posts {
+    margin-bottom: 40px;
 }
