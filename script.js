@@ -1,3 +1,5 @@
+//See Sample post on the main page
+
 function initializeSampleData() {
     if (!localStorage.getItem('blogPosts')) {
         const samplePosts = [
@@ -45,3 +47,49 @@ function loadPosts() {
 }
 
 document.addEventListener('DOMContentLoaded', loadPosts);
+
+//Create a new post
+
+if (document.getElementById('post-form')) {
+    const postForm = document.getElementById('post-form');
+
+    postForm.addEventListener('submit', function (x) {
+        x.preventDefault();
+
+        const author = document.getElementById('author').value.trim();
+        const title = document.getElementById('title').value.trim();
+        const content = document.getElementById('content').value.trim();
+        const imageOpt = document.getElementById('image');
+
+        if (!author) {
+            showError('author-error', 'Author name is required!');
+            return;
+        }
+
+        if (!title) {
+            showError('title-error', 'Title is required!');
+            return;
+        }
+
+        if (!content) {
+            showError('content-error', 'Blog Post needs to be written!');
+            return;
+        }
+
+        const newPost = {
+            author,
+            title,
+            content,
+        };
+
+        savePost(newPost);
+        window.location.href = 'index.html';
+
+    });
+}
+
+function savePost(post) {
+    const posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+    posts.unshift(post);
+    localStorage.setItem('blogPosts', JSON.stringify(posts));
+}
