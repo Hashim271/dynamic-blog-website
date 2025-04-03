@@ -30,3 +30,13 @@ nav a:hover {
 #posts {
     margin-bottom: 40px;
 }
+
+.post {
+    margin-bottom: 2rem;
+}
+
+#posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
