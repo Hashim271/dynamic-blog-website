@@ -35,6 +35,31 @@ nav a:hover {
     margin-bottom: 2rem;
 }
 
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.post-header p {
+    margin: 0;
+    color: #555;
+}
+
+.post-excerpt h4 {
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.post-excerpt p {
+    margin-top: 0;
+}
+
+.post-body h3{
+    margin-bottom: 5px;
+    color: #333;
+}
+
 #posts-container {
     display: flex;
     flex-direction: column;
