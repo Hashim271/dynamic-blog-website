@@ -1,7 +1,7 @@
 PART1: Completed
 
 
-PART2: Build the Homepage and Post Listing
+PART2: Build the Homepage and Post Listing *COMPLETED
 1. Develop the Homepage. (index.html)
 2. Add Basic CSS Styling
 3. Push/Pull and merge Homepage
